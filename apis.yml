@@ -1,23 +1,79 @@
 aid: alyawmgold
 name: AlyawmGold Public API
-description: 'AlyawmGold Public API is a company surfaced via the API Evangelist harvest backlog (source:
-  new-submission) and added to the network as a stub for full-pipeline profiling.'
+image: https://alyawmgold.com/social/alyawmgold-gold-prices-og.png
+description: AlyawmGold Public API provides real‑time gold and silver price data for the United Arab Emirates and surrounding markets. The service
+  offers up‑to‑date pricing in multiple currencies, historical price charts, and conversion tools. It targets developers building financial, e‑commerce,
+  and market‑analysis applications who need reliable precious‑metal pricing information. The platform supports multilingual interfaces and offers
+  APIs for price retrieval, historical data queries, and custom calculations, ensuring seamless integration into diverse software ecosystems.
 url: https://raw.githubusercontent.com/api-evangelist/alyawmgold/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:new-submission
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
 specificationVersion: '0.20'
 created: '2026-09-27'
 modified: '2026-09-27'
 tags:
 - Company
-apis: []
+- Gold
+- Prices
+- Finance
+- API
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: AgenticAccess
+  url: agentic-access/alyawmgold-agentic-access.yml
+- type: Spectral
+  url: rules/alyawmgold-rules.yml
+- type: JSONLD
+  url: json-ld/alyawmgold-context.jsonld
+- type: Vocabulary
+  url: vocabulary/alyawmgold-vocabulary.yml
+- type: DataModel
+  url: data-model/alyawmgold-data-model.yml
+- type: ErrorCatalog
+  url: errors/alyawmgold-problem-types.yml
+- type: Conformance
+  url: conformance/alyawmgold-conformance.yml
+- type: Hosts
+  url: hosts/alyawmgold-hosts.yml
+- type: Vendors
+  url: vendors/alyawmgold-vendors.yml
+- type: TermsOfService
+  url: https://alyawmgold.com/legal/terms
+- type: PrivacyPolicy
+  url: https://alyawmgold.com/legal/privacy
+- type: APIReference
+  url: https://alyawmgold.com/developers
+- type: GitHubOrganization
+  url: https://github.com/alyawmgold
+- type: DomainSecurity
+  url: security/alyawmgold-domain-security.yml
 - type: Website
   url: https://alyawmgold.com/
+apis:
+- name: AlyawmGold Public API
+  description: Open gold and silver spot references, supported markets, and USD history.
+  humanURL: https://alyawmgold.com/developers
+  baseURL: https://alyawmgold.com/
+  aid: alyawmgold:alyawmgold-public-api
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-09-27'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://alyawmgold.com/
+    status: 200
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 14
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

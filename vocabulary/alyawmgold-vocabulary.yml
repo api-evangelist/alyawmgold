@@ -1,0 +1,15 @@
+generated: '2026-09-27'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/alyawmgold-openapi.json
+vocabulary:
+  name: AlyawmGold Public API Domain Vocabulary
+  description: 'Terms declared by AlyawmGold Public API''s own API contract: its resource groups, objects and enumerations, with the contract''s
+    definitions. Derived, not authored.'
+  version: '2026-09-27'
+  terms:
+  - term: ProblemDetails
+    definition: 'Object declared by the contract with fields: type, title, status, detail, instance.'
+    tags:
+    - Object
+    source: openapi/alyawmgold-openapi.json#/components/schemas/ProblemDetails

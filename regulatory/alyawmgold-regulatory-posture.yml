@@ -1,0 +1,22 @@
+generated: '2026-09-27'
+method: probed
+source: https://alyawmgold.com/legal/privacy
+signals:
+  data_subject_request:
+    url: https://alyawmgold.com/legal/privacy
+    section: null
+    note: The provider states it does not request personal identifiers, indicating limited data collection.
+    evidence:
+      - source: https://alyawmgold.com/legal/privacy
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "✅ لا نطلب الاسم أو البريد الإلكتروني أو رقم الهاتف، ولا توجد حسابات مستخدمين على الموقع. عند تفعيل تنبيه تيليجرام، نحفظ فقط معرّف المحادثة الرقمي وتفضيلات التنبيه اللازمة لتقديم الخدمة، ونضع ارتباطاً مشفراً في متصفحك كي لا تعيد الربط لكل تنبيه."
+  data_retention:
+    url: https://alyawmgold.com/legal/privacy
+    section: null
+    note: Retains encrypted link files for up to 180 days.
+    evidence:
+      - source: https://alyawmgold.com/legal/privacy
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "✅ ملف ارتباط مشفر وأساسي لمدة تصل إلى 180 يوماً، إضافة إلى ملفات Google"
