@@ -18,6 +18,11 @@ tags:
 - Gold
 - Prices
 - Finance
+tags_raw:
+- Company
+- Gold
+- Prices
+- Finance
 - API
 maintainers:
 - FN: Kin Lane
