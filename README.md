@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AlyawmGold Public API is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://alyawmgold.com/
+AlyawmGold Public API provides real‑time gold and silver price data for the United Arab Emirates and surrounding markets. The service offers up‑to‑date pricing in multiple currencies, historical price charts, and conversion tools. It targets developers building financial, e‑commerce, and market‑analysis applications who need reliable precious‑metal pricing information. The platform supports multilingual interfaces and offers APIs for price retrieval, historical data queries, and custom calculations, ensuring seamless integration into diverse software ecosystems.
+
+**Areas:** Company · Gold · Prices · Finance
+
+## AlyawmGold Public API on APIs.io
+
+Everything profiled for AlyawmGold Public API is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alyawmgold/](https://apis.io/providers/alyawmgold/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [AlyawmGold Public API](https://apis.io/apis/alyawmgold/alyawmgold-public-api/) — Open gold and silver spot references, supported markets, and USD history.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [alyawmgold-mcp.yml](https://apis.io/servers/alyawmgold/alyawmgold-mcp-yml/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Alyawmgold Agentic Access](https://apis.io/agentic-access/alyawmgold/alyawmgold-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Alyawmgold Context](https://apis.io/jsonld/alyawmgold/alyawmgold-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Alyawmgold Openapi Overlay](https://apis.io/overlays/alyawmgold/alyawmgold-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AlyawmGold Public API API Rules](https://apis.io/rules/alyawmgold/alyawmgold-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alyawmgold Domain Security](https://apis.io/security/alyawmgold/alyawmgold-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://alyawmgold.com/)
+- [API reference](https://alyawmgold.com/developers)
+- [Terms of service](https://alyawmgold.com/legal/terms)
+- [Privacy policy](https://alyawmgold.com/legal/privacy)
+- [GitHub](https://github.com/alyawmgold)
+
+## API Evangelist rating
+
+**Kin Score 16.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 6.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alyawmgold/](https://apis.io/providers/alyawmgold/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AlyawmGold Public API: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/alyawmgold/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
